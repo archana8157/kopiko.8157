@@ -1,0 +1,170 @@
+
+/*importing fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.playfair-display-400 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.playfair-display-700 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+  }
+  
+  .open-sans-400{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+
+/* universal selector to remove all default margins and padding */
+*{
+    margin:0;         
+    padding:0;
+    
+}
+
+body{
+    height: 1500px;
+    background-color: black;    /* styles for the body */
+    
+
+}
+.header{
+    background-color:black;
+    height: 100px;
+    width:100%;
+    
+    
+}
+.title{
+    display: flex;
+    font-size:40px;
+    justify-content: center;
+    color:#b7b7b7;
+    font-weight: 50;
+    padding-top:30px;
+
+}
+/* changes text color to hoverd */
+.title:hover{
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    
+    
+
+}
+.second-heading{
+    color:#b7b7b7;
+    display: flex;
+    justify-content: center;
+    padding-top:5px;
+    
+
+}
+.navigationbar{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    height:80px;
+    justify-content: center;
+    gap: 20px;
+
+ 
+    
+
+
+}
+.lists{
+    font-family: "Open Sans", sans-serif;
+    padding-top:40px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-align:center;
+    color:white ;
+    font-weight: 400;
+    
+}
+.lists:hover{
+    color:red;
+}
+
+
+
+.content{
+    height:250px;
+    padding-left:10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+
+}
+.para2{
+  color:#7a7a7a;
+  padding:50px;
+  font-size:22px;
+  font-weight :500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:center;
+  letter-spacing:-0.6px;
+
+}
+.second-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+
+}
+#icon-container{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 250px;
+    padding-bottom: 120px;
+    background: black;
+    height: 80px;
+    width:100%;
+
+}
+.icons{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.footer{
+   padding-bottom:40px ;
+  align-items: center;
+  display:flex;
+  color:#7a7a7a;
+  width:100%;
+  height:10px;
+  justify-content: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+}
+.copyright{
+   display: flex;
+   justify-content: center;
+   
+}
